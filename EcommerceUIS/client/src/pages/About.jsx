@@ -16,12 +16,12 @@ const About = () => {
         <div className="container">
           <div className="row align-items-center py-5">
             <div className="col-md-8 text-white">
-              <h1>About Us</h1>
+              <h1>Sobre Nosotros</h1>
               <p>
-                UIS Shop is the official online store of the Universidad Industrial de Santander,
-                created by students for the UIS community. Our goal is to make it easy for
-                everyone to access quality university merchandise — from clothing to accessories —
-                all designed with pride in our institution.
+                UIS Shop es la tienda en línea oficial de la Universidad Industrial de Santander,
+                creada por estudiantes para la comunidad UIS. Nuestro objetivo es facilitar
+                que todos puedan acceder a productos universitarios de calidad, desde ropa hasta accesorios,
+                todos diseñados con orgullo por nuestra institución.
               </p>
             </div>
             <div className="col-md-4">
@@ -35,19 +35,20 @@ const About = () => {
       <section className="py-5" style={{ backgroundColor: "#f1f3f5" }}>
         <div className="row text-center pt-5 pb-3">
           <div className="col-lg-6 m-auto">
-            <h1 className="h1">Our Services</h1>
+            <h1 className="h1">Nuestros Servicios</h1>
             <p>
-              We go beyond just selling products. Our platform is built to offer a complete shopping experience — 
-              from quick delivery to friendly support. Here’s what makes UIS Shop stand out:
+              Vamos más allá de simplemente vender productos. Nuestra plataforma está diseñada
+              para ofrecer una experiencia de compra completa, desde entregas rápidas hasta un soporte amigable.
+              Esto es lo que hace que UIS Shop se destaque:
             </p>
           </div>
         </div>
         <div className="row">
           {[
-            { icon: "fa-truck", title: "Delivery Services" },
-            { icon: "fa-exchange-alt", title: "Shipping & Return" },
-            { icon: "fa-percent", title: "Promotion" },
-            { icon: "fa-user", title: "24 Hours Service" },
+            { icon: "fa-truck", title: "Servicios de Entrega" },
+            { icon: "fa-exchange-alt", title: "Envíos y Devoluciones" },
+            { icon: "fa-percent", title: "Promociones" },
+            { icon: "fa-user", title: "Atención 24 Horas" },
           ].map((service, i) => (
             <div className="col-md-6 col-lg-3 pb-5" key={i}>
               <div className="h-100 py-5 services-icon-wap shadow">
@@ -67,10 +68,10 @@ const About = () => {
               <div className="container my-4">
                 <div className="row text-center py-3">
                   <div className="col-lg-6 m-auto">
-                    <h1 className="h1">Our Brands</h1>
+                    <h1 className="h1">Nuestras Marcas</h1>
                     <p>
-                      We collaborate with trusted brands that share our passion for quality,
-                      comfort, and university pride. Discover some of our partners below.
+                      Colaboramos con marcas de confianza que comparten nuestra pasión por la calidad,
+                      la comodidad y el orgullo universitario. Descubre a algunos de nuestros socios a continuación.
                     </p>
                   </div>
 
