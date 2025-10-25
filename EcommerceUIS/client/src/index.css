@@ -87,9 +87,10 @@ header {
 
 
 .services-icon-wap {
-  background-color: #ffffff;  /* Para que al parsar el cursos cambie de color */
+  background-color: #495057; /* fondo gris oscuro */
+  color: #28a745; /* icono y texto verde UIS */
   transition: all 0.3s ease;
-  border-radius: 8px;
+  cursor: pointer;
 }
 
 .services-icon-wap:hover {
